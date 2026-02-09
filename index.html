@@ -9,8 +9,6 @@
 
     <!--сброс предустановленных стилей-->
     <link rel="stylesheet" href="styles/reset.css">
-    <!--подключение шрифтов-->
-    <link rel="stylesheet" href="styles/fonts.css">
     <!--основные стили страницы-->
     <link rel="stylesheet" href="styles/main.css">
     <!--адаптивные стили страницы-->
@@ -18,8 +16,61 @@
 
 </head>
 <body>
+<!--первый экран-->
+<header class="header">
+    <!--шапка сайта-->
+    <div class="topline flex">
+        <!--логотип-->
+        <div class="topline__logo">Моя первая верстка</div>
+        <!-- .. логотип-->
 
-<!--основной файл скриптов-->
-<script src="scripts/script.js"></script>
+        <!--навигация-->
+        <nav class="menu">
+            <ul class="menu__list flex">
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Главная</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Портфолио</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Услуги</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- .. навигация-->
+
+        <!--телефон-->
+        <div class="topline__phone">+7 (495) 982-53-64</div>
+        <!-- .. телефон-->
+    </div>
+    <!--шапка сайта-->
+
+    <!--блок с карточками-->
+    <div class="cards"></div>
+    <!-- .. блок с карточками-->
+</header>
+<!-- .. первый экран-->
+
+<!--секция с формой отправки-->
+<section class="second">
+    <!--форма отправки данных-->
+    <form action="#" method="post" class="form"></form>
+    <!-- .. форма отправки данных-->
+
+    <!--блок статья-->
+    <article class="article"></article>
+    <!-- .. блок статья-->
+</section>
+<!-- .. секция с формой отправки-->
+
+<!--подвал сайта-->
+<footer class="footer">
+
+</footer>
+<!-- .. подвал сайта-->
 </body>
 </html>

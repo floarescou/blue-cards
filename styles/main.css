@@ -1,3 +1,61 @@
+/*переменные*/
 :root {
-    
+    --main-font: "Arial", "sans-serif";
+    --main-text-color: #272c2f;
+    --light-text-color: #fff;
+    --article-text-color: #c0ddee;
+
+    --ui-accent-color: #22a2ec;
 }
+
+/* .. переменные*/
+
+/*общие настройки*/
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-weight: normal;
+    color: var(--main-text-color);
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*<!--первый экран-->*/
+header a {
+    color: var(--light-text-color);
+    border-bottom: 1px solid var(--light-text-color);
+}
+
+.topline {
+    padding: 35px 45px;
+    column-gap: 50px;
+    background-color: var(--ui-accent-color);
+    color: var(--light-text-color);
+    font-weight: bold;
+}
+
+.topline__logo, .topline__phone {
+    font-size: 18px;
+}
+nav.menu {
+    margin-right: 20%;
+}
+.menu__list {
+    column-gap: 27px;
+}
+
+/* .. <!--первый экран-->*/
+
+
+
+
