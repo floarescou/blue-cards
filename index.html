@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Blue cards</title>
 
     <!--сброс предустановленных стилей-->
     <link rel="stylesheet" href="styles/reset.css">
@@ -50,20 +50,83 @@
     <!--шапка сайта-->
 
     <!--блок с карточками-->
-    <div class="cards"></div>
+    <div class="cards">
+        <!--главный заголовок-->
+        <h1>Главный заголовок страницы</h1>
+        <!-- .. главный заголовок-->
+
+        <!--карточки с текстом / список-->
+        <ul class="cards__list flex">
+            <li class="cards__item">
+                <h3 class="cards__title">Это тестовая карточка #1</h3>
+                <p class="cards__desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                </p>
+            </li>
+            <li class="cards__item">
+                <h3 class="cards__title">Это тестовая карточка #2</h3>
+                <p class="cards__desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis
+                </p>
+                <a href="#" class="cards__link">Читать далее</a>
+            </li>
+            <li class="cards__item">
+                <h3 class="cards__title">Это тестовая карточка #3</h3>
+                <p class="cards__desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis
+                </p>
+                <a href="#" class="cards__link">Читать далее</a>
+            </li>
+        </ul>
+        <!-- .. карточки с текстом / список-->
+    </div>
     <!-- .. блок с карточками-->
 </header>
 <!-- .. первый экран-->
 
 <!--секция с формой отправки-->
 <section class="second">
+    <h2 class="second__title">Заголовок второй секции</h2>
     <!--форма отправки данных-->
-    <form action="#" method="post" class="form"></form>
-    <!-- .. форма отправки данных-->
+    <div class="form-block flex">
+        <form action="#" method="post" class="form flex">
+            <input type="text" class="form__point form__input" placeholder="Имя">
+            <input type="email" class="form__point form__input" placeholder="E-mail">
+            <input type="tel" class="form__point form__input" placeholder="Телефон">
+            <textarea name="" id="" class="form__point form__textarea" placeholder="Сообщение"></textarea>
+            <button class="form__btn" type="submit">Отправить</button>
+            <p class="form__desc">Ваши данные надежно защищены</p>
+        </form>
+        <!-- .. форма отправки данных-->
 
-    <!--блок статья-->
-    <article class="article"></article>
-    <!-- .. блок статья-->
+        <!--блок статья-->
+        <article class="article">
+            <h3 class="article__title">Заголовок карточки</h3>
+            <div class="article__wrapper flex">
+                <div class="article__text-block">
+                    <p class="article__desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    </p>
+                </div>
+                <div class="article__image-block">
+                    <img src="img/image.png" alt="картинка">
+                    <p class="article__desc">
+                        Laboris nisi ut aliquip ex ea commodo
+                    </p>
+                </div>
+            </div>
+        </article>
+        <!-- .. блок статья-->
+    </div>
 </section>
 <!-- .. секция с формой отправки-->
 
