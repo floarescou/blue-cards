@@ -228,6 +228,35 @@ h2.second__title {
 
 /* .. <!--секция с формой отправки-->*/
 
+/*<!--подвал сайта-->*/
+.footer {
+    padding: 15px 45px;
+    background-color: var(--ui-accent-color);
+    color: var(--light-text-color);
+    font-size: 13px;
+}
+.footer__action-block {
+    column-gap: 60px;
+    font-size: 12px;
+    margin-right: 180px;
+}
+.footer__btn {
+    border: 1px solid var(--light-text-color);
+    padding: 13px 17px;
+    border-radius: 5px;
+}
+.footer__btn_oval {
+    border-radius: 19px;
+}
+
+.footer__text {
+    color: var(--ui-accent-color);
+    background-color: var(--light-text-color);
+    padding: 15px 23px;
+    border-radius: 3px;
+}
+/* .. <!--подвал сайта-->*/
+
 
 
 
